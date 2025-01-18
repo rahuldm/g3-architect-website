@@ -1,1 +1,184 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.work-sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+
+}
+
+/* color section */
+.dark1 {
+    color: rgb(19, 19, 19);
+
+}
+
+.dark2 {
+    color: rgb(19, 19, 19);
+}
+
+.dark3 {
+    color: rgb(114, 114, 114);
+}
+
+.bg-one {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* shared style  */
+.display-flex {
+    display: flex;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    background: rgb(255, 144, 14);
+    border: none;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* jto gula section ache tader moddhe 130px gap */
+main>section {
+    margin-top: 130px;
+}
+
+
+/* nav style  */
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 116px;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.nav-links {
+    text-decoration: none;
+}
+
+.navbar .banner {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* .header {
+    padding: 50px 240px;
+} */
+
+.brand {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* banner container */
+.banner-container {
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    background: rgb(255, 144, 14);
+    border: none;
+}
+
+.btn-text {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.banner-image {
+    width: 100%;
+}
+
+/* team section */
+.teams {
+    align-items: center;
+    flex: grid;
+
+}
+
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-feature {
+    margin-left: 80px;
+    max-width: 530px;
+}
+
+.feature-title {
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+}
+
+.feature {
+    color: rgb(255, 144, 14);
+}
+
+.quick-list {
+    font-weight: 500;
+}
+
+.feature-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+/* learning new */
+/* media query */
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .nav-links,
+    .teams {
+        flex-direction: column;
+    }
+}
